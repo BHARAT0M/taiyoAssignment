@@ -35,6 +35,7 @@ const Contacts = () => {
       alert('Please fill all credentials');
     }
     setEdit({ name: '', lastName: '', status: '' });
+    setFlag(false);
   };
 
   const handleChangeEdit = (e: React.ChangeEvent<HTMLInputElement>) => {

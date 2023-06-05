@@ -119,7 +119,7 @@ const ChartsAndMaps = () => {
           <br />
           <br />
           <Box>
-            <MapContainer center={[0, 0]}>
+            <MapContainer>
               <TileLayer url="https://api.maptiler.com/maps/basic-v2/256/{z}/{x}/{y}.png?key=NLe8DG6CVIhkI4PpAXR1" />
               {countryData.map((country: any) => (
                 <Marker key={country.name} position={[country.lat, country.long]}>
